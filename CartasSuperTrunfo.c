@@ -8,13 +8,13 @@ porém, a informação aparece no VSCode do GitHub. Apenas aceitei o destino e s
 //Atualizando para usar struct
 struct STRcarta
 {
-    char VARletraestado;
-    char VARcodigoestado[4];
-    char VARnomecidade[50];
-    int VARpopulacaocidade;
-    float VARareacidade;
-    float VARpibcidade;
-    int VARturisticocidade;
+    char letraestado;
+    char codigoestado[4];
+    char nomecidade[50];
+    int populacaocidade;
+    float areacidade;
+    float pibcidade;
+    int turisticocidade;
 };
 //Atualizando para usar struct
 
@@ -28,37 +28,37 @@ int main()
 
     //Coleta de dados da carta 1
         printf("Digite uma letra (entre A e H) do estado da carta 1:\n");
-        scanf(" %c", &carta1.VARletraestado);
+        scanf(" %c", &carta1.letraestado);
 
         printf("Digite a letra do estado seguida de um número de 01 a 04 (ex: A01, B03) para a carta 1:\n");
-        scanf("%s", carta1.VARcodigoestado);
+        scanf("%s", carta1.codigoestado);
 
         printf("Digite o nome da cidade da carta 1:\n");
-        scanf("%s", carta1.VARnomecidade);
+        scanf("%s", carta1.nomecidade);
 
         printf("Digite a população da cidade da carta 1:\n");
-        scanf("%d", &carta1.VARpopulacaocidade);
+        scanf("%d", &carta1.populacaocidade);
 
         printf("Digite a área da cidade da carta 1:\n");
-        scanf("%f", &carta1.VARareacidade);
+        scanf("%f", &carta1.areacidade);
 
         printf("Digite o PIB da cidade da carta 1:\n");
-        scanf("%f", &carta1.VARpibcidade);
+        scanf("%f", &carta1.pibcidade);
 
         printf("Digite o número de pontos turísticos da cidade da carta 1:\n");
-        scanf("%d", &carta1.VARturisticocidade);
+        scanf("%d", &carta1.turisticocidade);
     //Fim da coleta de dados da carta 1
 
     //Início da exibição de informações da carta 1
         printf("Dados da carta 1:\n");
-        printf("\n"); //Espaço pois achei que ficou uma boa formação no console
-        printf("A letra do estado da carta 1 é: %c\n", carta1.VARletraestado);
-        printf("O código do estado da carta 1 é: %s\n", carta1.VARcodigoestado);
-        printf("O nome da cidade da carta 1 é: %s\n", carta1.VARnomecidade);
-        printf("A população da cidade da carta 1 é: %d\n", carta1.VARpopulacaocidade);
-        printf("A área da cidade da carta 1 é: %.2f\n", carta1.VARareacidade);
-        printf("O PIB da cidade da carta 1 é: %.2f\n", carta1.VARpibcidade);
-        printf("O número de pontos turísticos da cidade da carta 1 é: %d\n", carta1.VARturisticocidade);
+        printf("\n"); //Espaço pois achei que ficou uma boa formatação no console
+        printf("A letra do estado da carta 1 é: %c\n", carta1.letraestado);
+        printf("O código do estado da carta 1 é: %s\n", carta1.codigoestado);
+        printf("O nome da cidade da carta 1 é: %s\n", carta1.nomecidade);
+        printf("A população da cidade da carta 1 é: %d\n", carta1.populacaocidade);
+        printf("A área da cidade da carta 1 é: %.2f\n", carta1.areacidade);
+        printf("O PIB da cidade da carta 1 é: %.2f\n", carta1.pibcidade);
+        printf("O número de pontos turísticos da cidade da carta 1 é: %d\n", carta1.turisticocidade);
         printf("\n"); //Espaço tanto para formatação quanto para melhor visualização da próxima entrada de dados
     //Fim da exibição de informações da carta 1
 
@@ -66,37 +66,37 @@ int main()
 
         //Coleta de dados da carta 2
             printf("Digite uma letra (entre A e H) do estado da carta 2:\n");
-            scanf(" %c", &carta2.VARletraestado);
+            scanf(" %c", &carta2.letraestado);
 
             printf("Digite a letra do estado seguida de um número de 01 a 04 (ex: A01, B03) para a carta 2:\n");
-            scanf("%s", carta2.VARcodigoestado);
+            scanf("%s", carta2.codigoestado);
 
             printf("Digite o nome da cidade da carta 2:\n");
-            scanf("%s", carta2.VARnomecidade);
+            scanf("%s", carta2.nomecidade);
 
             printf("Digite a população da cidade da carta 2:\n");
-            scanf("%d", &carta2.VARpopulacaocidade);
+            scanf("%d", &carta2.populacaocidade);
 
             printf("Digite a área da cidade da carta 2:\n");
-            scanf("%f", &carta2.VARareacidade);
+            scanf("%f", &carta2.areacidade);
 
             printf("Digite o PIB da cidade da carta 2:\n");
-            scanf("%f", &carta2.VARpibcidade);
+            scanf("%f", &carta2.pibcidade);
 
             printf("Digite o número de pontos turísticos da cidade da carta 2:\n");
-            scanf("%d", &carta2.VARturisticocidade);
+            scanf("%d", &carta2.turisticocidade);
         //Fim da coleta de dados da carta 2
             
         //Início da exibição de informações da carta 2
             printf("Dados da carta 2:\n");
             printf("\n"); //Novamente o espaço prezando a formatação e exibição
-            printf("A letra do estado da carta 2 é: %c\n", carta2.VARletraestado);
-            printf("O código do estado da carta 2 é: %s\n", carta2.VARcodigoestado);
-            printf("O nome da cidade da carta 2 é: %s\n", carta2.VARnomecidade);
-            printf("A população da cidade da carta 2 é: %d\n", carta2.VARpopulacaocidade);
-            printf("A área da cidade da carta 2 é: %.2f\n", carta2.VARareacidade);
-            printf("O PIB da cidade da carta 2 é: %.2f\n", carta2.VARpibcidade);
-            printf("O número de pontos turísticos da cidade da carta 2 é: %d\n", carta2.VARturisticocidade);
+            printf("A letra do estado da carta 2 é: %c\n", carta2.letraestado);
+            printf("O código do estado da carta 2 é: %s\n", carta2.codigoestado);
+            printf("O nome da cidade da carta 2 é: %s\n", carta2.nomecidade);
+            printf("A população da cidade da carta 2 é: %d\n", carta2.populacaocidade);
+            printf("A área da cidade da carta 2 é: %.2f\n", carta2.areacidade);
+            printf("O PIB da cidade da carta 2 é: %.2f\n", carta2.pibcidade);
+            printf("O número de pontos turísticos da cidade da carta 2 é: %d\n", carta2.turisticocidade);
         //Fim da exibição de informações da carta 2
 //Encerrando a execução
     return 0;
