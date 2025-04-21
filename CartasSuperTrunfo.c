@@ -9,7 +9,7 @@ int main()
     {
     //Início da criação de variáveis para a carta 1
         char _letraestado1;
-        char _codigoestado1[3];
+        char _codigoestado1[4];
         char _nomecidade1[50];
         int _populacaocidade1;
         float _areacidade1;
@@ -56,7 +56,7 @@ int main()
 
         //Início da criação de variáveis para a carta 2
             char _letraestado2;
-            char _codigoestado2[3];
+            char _codigoestado2[4];
             char _nomecidade2[50];
             int _populacaocidade2;
             float _areacidade2;
