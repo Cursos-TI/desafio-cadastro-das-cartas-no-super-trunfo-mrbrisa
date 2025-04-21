@@ -2,7 +2,8 @@
 
 int main()
 {
-    char _letraestado1;
+    \\aqui seguem as variaveis
+    char _letraestado1; 
     char _codigoestado1[3];
     char _nomecidade1[50];
     int _populacaocidade1;
